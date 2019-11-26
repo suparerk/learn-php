@@ -12,10 +12,12 @@ class ComposerStaticInit061f1b10d8b959fd9f10503253eebea8
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit061f1b10d8b959fd9f10503253eebea8' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Connection' => __DIR__ . '/../..' . '/basic-php/core/database/Connection.php',
+        'PagesController' => __DIR__ . '/../..' . '/basic-php/controllers/PagesController.php',
         'Post' => __DIR__ . '/../..' . '/arrays/index.php',
         'QueryBuilder' => __DIR__ . '/../..' . '/basic-php/core/database/QueryBuilder.php',
         'Request' => __DIR__ . '/../..' . '/basic-php/core/Request.php',
         'Router' => __DIR__ . '/../..' . '/basic-php/core/Router.php',
+        'UsersController' => __DIR__ . '/../..' . '/basic-php/controllers/UsersController.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
